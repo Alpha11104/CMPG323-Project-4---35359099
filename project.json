@@ -39,7 +39,9 @@
       "privateWorkflows": []
     },
     "processOptions": {
-      "ignoredFiles": []
+      "ignoredFiles": [
+        "Main_fix.xaml"
+      ]
     },
     "fileInfoCollection": [],
     "modernBehavior": true
