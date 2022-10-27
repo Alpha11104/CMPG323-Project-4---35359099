@@ -107,19 +107,11 @@
       <Variable x:TypeArguments="sd:DataTable" Name="DeviceDataTable" />
       <Variable x:TypeArguments="sd:DataTable" Name="CategoryDataTable" />
       <Variable x:TypeArguments="sd:DataTable" Name="ResultsDataTable" />
-      <Variable x:TypeArguments="x:String" Name="LoginEmail">
-        <Variable.Default>
-          <Literal x:TypeArguments="x:String">35359099@email.con</Literal>
-        </Variable.Default>
-      </Variable>
-      <Variable x:TypeArguments="x:String" Name="LoginPassword">
-        <Variable.Default>
-          <Literal x:TypeArguments="x:String">P@ssw0rd</Literal>
-        </Variable.Default>
-      </Variable>
+      <Variable x:TypeArguments="x:String" Name="LoginEmail" />
+      <Variable x:TypeArguments="x:String" Name="LoginPassword" />
       <Variable x:TypeArguments="x:Boolean" Name="TestCategory">
         <Variable.Default>
-          <Literal x:TypeArguments="x:Boolean" />
+          <Literal x:TypeArguments="x:Boolean" Value="True" />
         </Variable.Default>
       </Variable>
       <Variable x:TypeArguments="x:Boolean" Name="TestDevices">
@@ -129,7 +121,7 @@
       </Variable>
       <Variable x:TypeArguments="x:Boolean" Name="TestZone">
         <Variable.Default>
-          <Literal x:TypeArguments="x:Boolean" />
+          <Literal x:TypeArguments="x:Boolean" Value="True" />
         </Variable.Default>
       </Variable>
     </Sequence.Variables>
@@ -228,7 +220,7 @@
                       <av:PointCollection x:Key="ConnectorLocation">260,246.39999999999998 260,276.4 410.4,276.4 410.4,226.39999999999998 480,226.39999999999998 480,256.4</av:PointCollection>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <Sequence DisplayName="Login" sap:VirtualizedContainerService.HintSize="200,92.8" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                  <Sequence DisplayName="Login" sap:VirtualizedContainerService.HintSize="400,958.4" sap2010:WorkflowViewState.IdRef="Sequence_5">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
